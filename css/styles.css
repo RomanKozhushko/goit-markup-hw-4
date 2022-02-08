@@ -292,21 +292,71 @@ p {
   height: 92px;
   display: flex;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
-.partner-one {
+.box {
   width: 170px;
   height: 92px;
-  background-image: url;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-position: 32px 15.5px;
+  background-repeat: no-repeat;
+  background-color: var(--primary-white-color);
+  cursor: pointer;
+}
+.partner-one {
+  background-image: url(../images/Client1.png);
+}
+
+.partner-one:hover,
+.partner-one:focus {
+  background-image: url(../images/blueClient1.png);
+  border-color: var(--accent-color);
 }
 .partner-two {
+  background-image: url(../images/Client2.png);
+  background-repeat: no-repeat;
 }
+.partner-two:hover,
+.partner-two:focus {
+  background-image: url(../images/blueClient2.png);
+  border-color: var(--accent-color);
+}
+
 .partner-three {
+  background-image: url(../images/Client3.png);
 }
+.partner-three:hover,
+.partner-three:focus {
+  background-image: url(../images/blueClient3.png);
+  border-color: var(--accent-color);
+}
+
 .partner-four {
+  background-image: url(../images/Client4.png);
+}
+.partner-four:hover,
+.partner-four:focus {
+  background-image: url(../images/blueClient4.png);
+  border-color: var(--accent-color);
 }
 .partner-five {
+  background-image: url(../images/Client5.png);
+}
+.partner-five:hover,
+.partner-five:focus {
+  background-image: url(../images/blueClient5.png);
+  border-color: var(--accent-color);
 }
 .partner-six {
+  background-image: url(../images/Client6.png);
+}
+.partner-six:hover,
+.partner-six:focus {
+  background-image: url(../images/blueClient6.png);
+  border-color: var(--accent-color);
 }
 /* ==========PARTNERS=================== */
 .color-adventage {
@@ -338,6 +388,9 @@ p {
   height: 368px;
   background-color: #ffffff;
   text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .name {
@@ -367,6 +420,7 @@ p {
   background-color: #2f303a;
   width: 1600px;
   height: 252px;
+  display: flex;
 }
 .address-foot {
   font-size: 14px;
@@ -384,6 +438,31 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   text-decoration: none;
+}
+.footer-content {
+  padding-top: 60px;
+  margin-left: 185px;
+}
+.media {
+  padding-top: 72px;
+  margin-left: 70px;
+}
+.join {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.media-link {
+  width: 206px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-top: 20px;
 }
 .space {
   padding: 0;
@@ -468,4 +547,36 @@ img {
   color: var(--fone-color-cotrast);
   margin-left: 24px;
   margin-top: 4px;
+}
+.footer-flex {
+  display: flex;
+}
+.circle {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: 12px 12px;
+}
+
+.insta {
+  background-image: url(../images/insta.png);
+}
+.circle:hover,
+.circle:focus {
+  background-color: var(--accent-color);
+}
+.twiter {
+  background-image: url(../images/twitter.png);
+}
+.facebook {
+  background-image: url(../images/facebook.png);
+}
+.linkedin {
+  background-image: url(../images/linkedin.png);
 }
