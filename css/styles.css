@@ -19,6 +19,7 @@
   --grey-boarder: #afb1b8;
 }
 body {
+  margin: 0px;
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   color: var(--title-text-color);
@@ -83,20 +84,23 @@ p {
 .phone {
   width: 14px;
   height: 16px;
-  fill: var(--grey-boarder);
+  fill: currentColor;
   text-align: center;
   margin-right: 10px;
+  margin-left: 30px;
+  
 }
 .phone-box {
   display: flex;
 }
 .phone:hover,
 .phone:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .linki {
   color: var(--fone-color-cotrast);
   text-decoration: none;
+  
 }
 .linki:hover,
 .linki:focus {
@@ -105,18 +109,15 @@ p {
 .envelope {
   width: 16px;
   height: 16px;
-  fill: var(--grey-boarder);
+  fill: currentColor;
   text-align: center;
   margin-right: 10px;
 }
 
 .envelope:hover,
 .envelope:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
-  .mail {
-    padding-right: 30px;
-  }
 
   .navis {
     width: 294px;
